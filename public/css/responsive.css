@@ -1,0 +1,151 @@
+@media (max-width:375px) {
+    nav{
+        width: 100%;
+        /* height: 200px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    nav img{
+        width: 160px;
+        height: 30px;
+        margin-bottom: 6px;
+    }
+    .container__items_select{
+        width: 200px;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        row-gap: 15px;
+        display: none;
+        border: 1px  solid rgba(0, 0, 0, 0.301);
+        border-radius: 6px;
+        -webkit-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px -4px rgba(0,0,0,0.75);
+    }
+
+    
+    .container__items_select li a {
+        text-transform: capitalize;
+        text-decoration: none;
+        color:hsl(0, 0%, 28%);
+    }
+
+    .btn_request{
+        display: none;
+    }
+
+    .container_ham{
+        position: absolute;
+        z-index: 18;
+        display: block;
+        color: black;
+        left: 10px;
+        top: 30px;
+        cursor: pointer;
+    }
+
+    #btn_responsive{
+        display: block;
+    }
+    
+    .activate{
+        display: flex;
+    }
+
+    .main__content{
+    width: 100%;
+    height: 750px;
+    }
+
+
+    .bg_intro{
+        width: 350px;
+        height: 400px;
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        z-index: 10;
+    }
+    .mockups{
+        width: 350px;
+        overflow: hidden;
+        position: absolute;
+        z-index: 11;
+        left: 0;
+    }
+    
+    .main__container_information{
+        position: absolute;
+        width: 350px;
+        top: 520px;
+        left: 0;
+        
+    }
+    
+    .main__container_information h1{
+        font-size: 2.7rem;
+        padding-bottom: 40px;
+        font-weight: 300;
+    }
+    
+    .main__container_information p{
+        font-size: 1.2rem;
+        font-weight: 300;
+        padding-bottom: 30px;
+    }
+
+
+    .information__easy h1{
+        margin-left: 30px;
+        font-size: 3rem;
+        font-weight: 300;
+        padding-bottom: 30px;
+        color:hsl(0, 0%, 28%);
+    }
+    
+    .information__easy p{
+        margin-left:  30px;
+        margin-bottom: 60px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
